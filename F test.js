@@ -111,7 +111,7 @@ document.querySelector(".b-14").addEventListener("click", function () {
 // const t15 =
 
 document.querySelector(".b-15").addEventListener("click", function () {
-  let num = document.querySelector("i-15").value;
+  let num = document.querySelector(".i-15").value;
   document.querySelector(".out-15").textContent = t15(num);
 });
 
